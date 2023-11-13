@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url();
+}
+
+body {
+  background-color: #0c0c0c;
+  margin: 0;
+  padding: 0;
+  
+  position: relative;
+  
+  background-size: cover;
+
+}
+
+.titulo p {
+  font-family: 'bold';
+}
+
+.sub-titulo {
+  font-family: 'italic';
+}
+
+.texto p {
+  font-family: 'poppins';
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1510px;
+  height: 1080px;
+  filter: blur(10px);
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  z-index: -1;
+  margin-top: -200px;
+}
+
+.container-cima {
+    position: relative;
+    z-index: 1;
+    
+}
+
+/* Conteudo da logo e de navegar*/
+.logo {
+  height: 60px;
+  width: 140px;
+  margin-top: -20px;
+}
+.container-cima {
+  margin-top: 60px;
+  margin-left: 120px;
+  display: flex;
+
+}
+
+.menu {
+  margin-top: -40px;
+  margin-left: 250px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  color: white;
+}
+.conteudo {
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+/* proximo conteudo */
+
+.proximo-conteudo {
+  flex-direction: column;
+}
+.teddy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.foto-fnaf1 {
+  width: 1510px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.foto-fnaf2 {
+  width: 300px;
+  /* position: absolute; */
+  top: 210px;
+  left: 130px;
+}
+.imagem {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+
+}
+.infos {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+.idade {
+  font-size: px;
+  background-color: orange;
+  margin: 0 50px;
+  padding: 5px 7px;
+  font-family: 'Poppins', sans-serif;
+}
+.tempo {
+  margin: 0 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*menu */
+
+.contato1 {
+  width: 42px;
+}
+  .menu1 {
+  width: 40px;
+}
+
+
+/* texto */
+.titulo {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  /* position: absolute; */
+  left: 690px;
+  font-size: 30px;
+}
+
+.cont {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cont::before {
+  margin-left: auto;
+}
+
+.cont::after, .cont::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.cont:hover::after, .cont:hover::before {
+  width: 100%;
+}
+.menu-contato {
+  margin-left: 300px;
+  margin-top: -15px;
+}
+/*TITULO*/
+.cartaz-em-breve {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.titulo {  
+  background: none;
+
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titulo::before {
+  margin-left: auto;
+}
+
+.titulo::after, .titulo::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.titulot:hover::after, .titulo:hover::before {
+  width: 100%;
+}
+
+.titulo h1 {
+  font-size: 40px;
+}
+/* carrocel de filmes */
+.card {
+  position: absolute;
+  top: 210px;
+  left: 90px;
+  width: 1340px;
+  height: 400px;
+  border-radius: 4px;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+}
+
+
+
+.card p {
+  
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p:hover {
+  flex: 2;
+}
+
+.card p img.hover-image {
+  min-width: 14em;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all .5s;
+}
+
+.card p:hover img.hover-image {
+  transform: rotate(0);
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(10px);
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ULTIMO DE TUDO */
